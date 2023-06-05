@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>外賣 Fortune Cookies</title>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=SimSun&display=swap');
+
+    body {
+      background-color: white;
+      color: #FF0025;
+      font-family: 'SimSun', sans-serif;
+      margin: 0;
+      background-image: url('background.png'); 
+      background-repeat: repeat;
+      background-size: cover;
+    }
+    
+    /* Additional CSS styles for your website */
+    
+    /* Header styles */
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+    
+    h1 {
+      font-size: 52px;
+      margin: 0;
+    }
+    
+    /* Main content styles */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      font-size: 28px;
+      font-weight: bold;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8); 
+      border-radius: 10px;
+    }
+    
+    /* Social links styles */
+    .social-links {
+      text-align: center;
+      margin: 20px 0;
+    }
+    
+    .social-links a {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 38px;
+    }
+    
+    /* Zodiac fortune cookies styles */
+    .fortune-cookie {
+      text-align: center;
+      margin: 20px 0;
+    }
+    
+    .fortune-cookie img {
+      width: 150px;
+      height: 150px;
+      cursor: pointer;
+    }
+    
+    /* Additional content styles */
+    .additional-content {
+      font-size: 28px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+  </style>
+  <script>
+    function revealFortune(cookieNum) {
+      var fortuneElement = document.getElementById('fortune-' + cookieNum);
+      fortuneElement.textContent = generateFortune();
+    }
+
+    function generateFortune() {
+      var fortunes = [
+        "Invest in $外賣 now and you may gain 100x returns!",
+        "Your Twitter crypto talk will attract influential followers. Spread the word about $外賣!",
+        "A wise investor knows the value of $外賣. Buy now and secure your future!",
+        "Your fortunes are aligned with $外賣. HODL and watch your wealth grow!",
+        "The path to success is paved with $外賣. Stay committed and reap the rewards!",
+        "With $外賣 by your side, financial prosperity is within reach.",
+        "Embrace the power of $外賣 and unlock new realms of wealth.",
+        "Let the magic of $外賣 guide your investment journey to success.",
+        "Your intuition is strong, and it leads you to the riches of $外賣.",
+        "The crypto world is in awe of $外賣. Embrace its potential and thrive.",
+        "The strength of $外賣 empowers you to achieve financial independence.",
+        "Believe in the potential of $外賣 and witness miracles unfold.",
+        "Your investment in $外賣 holds the key to a brighter financial future.",
+        "Trust in the growth of $外賣 and watch your wealth multiply.",
+        "The dragon's energy fuels the rise of $外賣. Embrace its power.",
+        "With every investment in $外賣, your fortunes multiply.",
+        "The bull market favors those who invest wisely in $外賣. Ride the wave.",
+        "Embrace the tiger's spirit and let $外賣 lead you to new heights.",
+        "The phoenix of $外賣 rises, bringing forth unprecedented opportunities.",
+        "Your dedication to $外賣 is rewarded with exponential gains.",
+        "The spirit of the horse guides your investments in $外賣 towards success.",
+        "Embrace the wisdom of the ancients and seize the potential of $外賣.",
+        "The dog symbolizes loyalty, just like $外賣 remains steadfast in its growth.",
+        "The harmony of yin and yang brings balance to your $外賣 investments.",
+        "Your trust in $外賣 paves the path to financial abundance.",
+        "As $外賣 soars, your wealth and prosperity reach new heights.",
+        "With each investment in $外賣, your financial dreams come closer to reality.",
+        "The ox's strength empowers you to make profitable decisions with $外賣.",
+        "Embrace the power of community and unite with fellow investors in $外賣.",
+        "Your perseverance and patience with $外賣 lead to incredible returns.",
+        "Believe in the potential of $外賣, and the universe aligns to support your wealth.",
+        "As $外賣 gains momentum, your financial future becomes brighter.",
+        "The rat's cunning nature guides you towards profitable opportunities in $外賣.",
+        "Embrace the serenity of the lotus flower and let $外賣 bloom in your portfolio.",
+        "With every investment in $外賣, your financial status strengthens.",
+        "The rabbit's agility inspires you to seize swift opportunities with $外賣.",
+        "Embrace the wisdom of the monkey and make intelligent investments in $外賣.",
+        "The sheep's gentle nature brings tranquility to your $外賣 investments.",
+        "As $外賣 gains popularity, your financial growth knows no bounds.",
+        "The rooster's confidence reflects in your investments in $外賣.",
+        "Your belief in the power of $外賣 attracts bountiful returns.",
+        "The snake's intuition guides you towards profitable investments in $外賣.",
+        "Embrace the energy of the pig and witness prosperity in your $外賣 holdings.",
+        "The tiger's strength empowers you to make bold investments in $外賣.",
+        "With each investment in $外賣, you step closer to financial freedom.",
+        "The horse's determination fuels your investments in $外賣 towards success.",
+        "Embrace the dragon's energy and ride the wave of success with $外賣.",
+        "The monkey's intelligence guides you to make clever investments in $外賣.",
+        "Your trust in $外賣 opens the doors to a wealth of opportunities.",
+        "The rat's resourcefulness leads you to lucrative investments in $外賣.",
+        "Embrace the dog's loyalty and stay committed to your investments in $外賣."
+      ];
+
+      var randomIndex = Math.floor(Math.random() * fortunes.length);
+      return fortunes[randomIndex];
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>$外賣 Fortune Cookies</h1>
+  </header>
+  
+  <div class="container">
+    <h2>Welcome to $外賣!</h2>
+    <p>Introducing $外賣, a revolutionary Ethereum token blending the rich heritage of Chinese culture with the power of blockchain technology. Our coin aims to bring together crypto enthusiasts and lovers of Chinese cuisine on a decentralized platform.</p>
+    <p>Explore the unique features and benefits of our coin, connect with our vibrant community, and experience the excitement of this fusion project.</p>
+    
+    <div class="social-links">
+      <a href="https://t.me/TakeoutChinese">Telegram</a>
+      <a href="https://twitter.com/yourtwitterlink">Twitter</a>
+      <a href="https://yourchartlink">Chart</a>
+      <a href="https://yourbuylink">Buy</a>
+    </div>
+    
+    <h3>Chinese Zodiac Fortune Cookies</h3>
+    
+    <div class="fortune-cookie">
+      <img src="cookie.png" alt="Fortune Cookie 1" onclick="revealFortune(1)">
+      <p id="fortune-1">Click to reveal</p>
+    </div>
+
+    <div class="additional-content">
+      <h3>Important Notice</h3>
+      <p>Trading cryptocurrency involves high risk. The volatile nature of the crypto market can result in substantial gains or losses. Please exercise caution and do thorough research before making any investment decisions. It's recommended to consult with a financial advisor if you're unsure about the suitability of an investment.</p>
+    </div>
+  </div>
+  <section>
+  <marquee id="scroll" scrollamount="4">外賣<audio controls="" id="music" autoplay="" class="audioplayer" name="media"><source src="Chingchong.mp3" type="audio/mpeg"></audio>
+        </marquee>
+  </section>
+  <script>
+    // Add your additional JavaScript code here, if needed
+  </script>
+</body>
+</html>
